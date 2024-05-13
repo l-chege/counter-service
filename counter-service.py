@@ -33,7 +33,7 @@ def update_counter(counter) :
 @app.route('/', methods=['GET', 'POST'])
 def handle_request():
     """
-    Handles GET and POST requests to the root endoint.
+    Handles GET and POST requests to the root endpoint.
     GET request returns the current count of POST requests.
     POST request increments the counter and returns the updated count.
     
